@@ -1,13 +1,13 @@
 function Footer() {
    return (
-      <footer class="bg-[#003566] text-white py-4">
-         <p class="text-center text-sm">
+      <footer className="bg-[#003566] text-white py-4">
+         <p className="text-center text-sm">
             Copyright <span>{new Date().getFullYear()}</span>
-            <span class="mx-2">|</span>
+            <span className="mx-2">|</span>
             Curated by
             <a
                href="https://toriola.xyz#contact"
-               class="text-light-blue underline ml-1"
+               className="text-light-blue underline ml-1"
                target="_blank"
             >
                Toriola Faidat
