@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import './homepage.scss';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,15 +27,6 @@ a {
   margin: auto;
 }
 
-.career {
-  border: 1px solid #d2dfff;
-  @apply bg-light-1 rounded-2xl;
-}
-
-.blue-btn-link {
-  @apply text-white text-sm font-normal bg-blue rounded px-6 py-[11px];
-}
-
-article {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.flex-center {
+  @apply flex justify-center items-center;
 }

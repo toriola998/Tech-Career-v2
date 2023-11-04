@@ -5,10 +5,10 @@ function About() {
       <>
          {about.map((item, index) => (
             <section
-               className="py-16 px-4 md:px-[15%] lg:px-4 flex flex-col gap-10 xl:gap-20 lg:flex-row container lg:justify-center items-center"
-               v-for="(item, index) in story"
+               className={`py-16 px-4 md:px-[15%] lg:px-4 flex flex-col gap-10 xl:gap-x-40 lg:flex-row container lg:justify-center items-center ${
+                  index === 1 ? "lg:flex-row-reverse" : ""
+               }`}
                key={index}
-               // className={ 'lg:flex-row-reverse': index == 1 }
             >
                <div className="lg:w-[40%]">
                   <h2 className="text-2xl md:text-[2.3rem] md:leading-[3rem] font-semibold">
