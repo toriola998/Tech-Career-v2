@@ -16,7 +16,7 @@ function Articles() {
                   key={index}
                >
                   <img
-                     src="/assets/images/yellow-cloth-girl.jpg"
+                     src={item.image}
                      alt=""
                      role="presentation"
                      className="rounded-lg"
@@ -24,9 +24,15 @@ function Articles() {
                   <h3 className="font-medium my-4 text-[1.1rem] lg:text-[1.2rem]">
                      {item.title}
                   </h3>
-                  <p className="text-sm lg:text-[15px] leading-6">{item.note}</p>
+                  <p className="text-sm lg:text-[15px] leading-6">
+                     {item.note.slice(0, 150) + "..."}
+                  </p>
 
-                  <Link className="inline-flex mt-6 text-white text-xs lg:text-[13px] bg-blue rounded-full px-3 py-2">
+                  <Link
+                     className="inline-flex mt-6 text-white text-xs lg:text-[13px] bg-blue rounded-full px-3 py-2"
+                     to={item.link}
+                     target="_blank"
+                  >
                      Read more
                   </Link>
                </article>
