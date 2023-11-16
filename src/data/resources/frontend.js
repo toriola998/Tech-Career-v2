@@ -1,4 +1,33 @@
 const frontend = {
+    notes: [
+        `Commonly referred to as Client-Side Development, Front-End
+        Development is the software development aspect responsible for
+        designing the client-side interface of the software, website,
+        or application. Basically, front-end developers are
+        responsible for developing everything a user sees and
+        interacts with on the software. Their role is to turn the code
+        written by back-end developers into an interactive graphical
+        interface that will present information in a user-friendly
+        format.`,
+
+        `Developing software without a front end will result in a site
+        or app with just codes that users with no programming
+        background cannot understand. So basically, the role of
+        front-end development is to help develop an interface that
+        will allow users to easily interact with the back-end of a
+        website, software, or application.`,
+
+        `However, there are factors that a front-end needs to consider
+        in order to be able to design an efficient front-end. The
+        first one is the varying devices that often come in different
+        screen sizes and resolutions, thus making the developer
+        consider this during development.`,
+
+        `The other factors include varying browser types and operating
+        systems. This means that a front-end developer has to ensure
+        the website, app or software is cross-browser, cross-OS, and
+        cross-device.`
+    ],
     technologies: [
         {
             title: 'HTML (Hyper Text Markup Language)',
