@@ -10,7 +10,8 @@ export default {
         'dark-blue': '#0f3375',
         'blue': '#196bde',
         'light-blue': '#d2dfff',
-        'light-1': '#f4f4fc'
+        'light-1': '#f4f4fc',
+        'dark': '#000000',
       }
     },
   },

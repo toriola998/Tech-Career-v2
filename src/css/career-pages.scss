@@ -1,0 +1,22 @@
+.note {
+    @apply leading-7 lg:leading-[1.85rem] text-[15.5px] lg:text-base;
+}
+
+.heading-2 {
+    @apply text-dark font-semibold text-xl md:text-2xl mb-3 mt-10;
+}
+
+.heading-3 {
+    @apply text-dark font-semibold text-lg md:text-xl mb-3 mt-10;
+}
+
+ul li a {
+    text-underline-offset: 4px;
+    text-decoration-color: #3d3d3d;
+    text-decoration-thickness: 1px;
+
+    &:hover {
+        color: #196bde;
+        text-decoration-color: #196bde; 
+    }
+}
