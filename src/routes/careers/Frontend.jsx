@@ -2,7 +2,7 @@ import CommonPageLayout from "../../components/layout/CommonPageLayout";
 import frontend from "../../data/resources/frontend";
 
 function Frontend() {
-   const categories = [
+   const resources = [
       { title: "Bootcamps", data: frontend.bootcamp },
       { title: "Websites", data: frontend.websites },
       { title: "Books", data: frontend.books },
@@ -72,7 +72,7 @@ function Frontend() {
                   ensure you learn and build with HTML & CSS before proceeding
                   to javascript.
                </p>
-               {categories.map((category, index) => (
+               {resources.map((category, index) => (
                   <div key={index}>
                      <h3 className="heading-3">{category.title}</h3>
 
