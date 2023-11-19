@@ -1,5 +1,6 @@
 import CommonPageLayout from "../../components/layout/CommonPageLayout";
 import LearningAdvice from "../../components/shared/LearningAdvice";
+import WatchVideo from "../../components/shared/WatchVideo";
 import frontend from "../../data/resources/frontend";
 
 function Frontend() {
@@ -22,13 +23,7 @@ function Frontend() {
             </p>
          ))}
 
-         <p className="mb-2 font-medium">Watch a video</p>
-         <iframe
-            className="w-full h-[200px] md:h-[300px]"
-            src="https://www.youtube.com/embed/GJ8jidDdWVg?si=I8cbhyNpCWhWsVBs"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-         ></iframe>
+         <WatchVideo videoSrc="https://www.youtube.com/embed/GJ8jidDdWVg?si=I8cbhyNpCWhWsVBs" />
 
          <h2 className="heading-2">
             Web Technologies Used For Frontend Development

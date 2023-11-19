@@ -5,7 +5,7 @@ function CommonPageLayout({ children, title, heroImg }) {
       <>
          <NavBar />
          <main>
-            <div className="max-w-[700px] mx-auto mt-32">
+            <div className="max-w-[700px] mx-auto my-32 px-4">
                <h1 className="text-dark font-semibold text-2xl md:text-3xl">
                   {title}
                </h1>
