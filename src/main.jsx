@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./routes/Home";
 import Frontend from "./routes/careers/Frontend";
 import UserDesign from "./routes/careers/UserDesign";
+import Mobile from "./routes/careers/Mobile";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./css/index.scss";
 
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
    {
       path: "/career/user-design",
       element: <UserDesign />,
+   },
+   {
+      path: "/career/mobile-development",
+      element: <Mobile />,
    },
 ]);
 

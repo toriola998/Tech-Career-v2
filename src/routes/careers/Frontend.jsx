@@ -56,7 +56,7 @@ function Frontend() {
             <div key={index}>
                <h3 className="heading-3">{category.title}</h3>
 
-               <ul className="ml-5 list-disc">
+               <ul className="resources ml-5 list-disc">
                   {category.data.map((item, index) => (
                      <li key={index}>
                         <a
