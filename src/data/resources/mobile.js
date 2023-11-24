@@ -26,7 +26,7 @@ const mobile = {
         },
         {
             link: "https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/",
-            text: "Flutter & Dart - The Complete Guide [2023 Edition]",
+            text: `Flutter & Dart - The Complete Guide [${new Date().getFullYear()} Edition]`,
         },
         {
             link: "https://www.udemy.com/course/the-complete-android-oreo-developer-course/",
@@ -60,7 +60,7 @@ const mobile = {
         },
         {
             link: "https://www.youtube.com/watch?v=09TeUXjzpKs",
-            text: "iOS Tutorial (2020): How To Make Your First App with Xcode"
+            text: "iOS Tutorial: How To Make Your First App with Xcode"
         },
         {
             link: "https://www.youtube.com/watch?v=VPvVD8t02U8",

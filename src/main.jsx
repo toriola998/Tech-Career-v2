@@ -4,6 +4,7 @@ import Home from "./routes/Home";
 import Frontend from "./routes/careers/Frontend";
 import UserDesign from "./routes/careers/UserDesign";
 import Mobile from "./routes/careers/Mobile";
+import SoftwareTesting from "./routes/careers/software-testing";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./css/index.scss";
 
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
    {
       path: "/career/mobile-development",
       element: <Mobile />,
+   },
+   {
+      path: "/career/software-testing",
+      element: <SoftwareTesting />,
    },
 ]);
 
