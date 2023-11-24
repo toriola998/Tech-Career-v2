@@ -1,31 +1,31 @@
 import CommonPageLayout from "../../components/layout/CommonPageLayout";
-import softwareTesting from "../../data/resources/software-testing";
-import LearningAdvice from "../../components/shared/LearningAdvice";
+import devOps from "../../data/resources/devops";
 import WatchVideo from "../../components/shared/WatchVideo";
+import LearningAdvice from "../../components/shared/LearningAdvice";
 
-function SoftwareTesting() {
+function DevOps() {
    const resources = [
-      { title: "Bootcamps", data: softwareTesting.bootcamp },
-      { title: "Websites", data: softwareTesting.websites },
-      { title: "Youtube", data: softwareTesting.youtube },
+      { title: "Bootcamps", data: devOps.bootcamp },
+      { title: "Websites", data: devOps.websites },
+      { title: "Youtube", data: devOps.youtube },
    ];
 
    return (
       <CommonPageLayout
-         title="Software Testing (Quality Assurance)"
+         title="Development Operations (DevOps)"
          heroImg="/assets/images/frontend-hero.jpg"
       >
-         {softwareTesting.notes.map((item, index) => (
+         {devOps.notes.map((item, index) => (
             <p className="my-5 note" key={index}>
                {item}
             </p>
          ))}
 
-         <WatchVideo videoSrc="https://www.youtube.com/embed/xtQpNdGK6WI?si=1bOhlywef70exD59" />
-         
-         <h2 className="heading-2">Roles of software testing</h2>
+         <WatchVideo videoSrc="https://www.youtube.com/embed/Xrgk023l4lI?si=G5pz3ZFL8fKdxn_r" />
+
+         <h2 className="heading-2">Roles of devOps</h2>
          <div className="mt-8 ml-6">
-            {softwareTesting.roles.map((item, index) => (
+            {devOps.roles.map((item, index) => (
                <div key={index}>
                   <p className="font-medium mb-2 ">{`${index + 1}. ${
                      item.title
@@ -61,4 +61,4 @@ function SoftwareTesting() {
    );
 }
 
-export default SoftwareTesting;
+export default DevOps;

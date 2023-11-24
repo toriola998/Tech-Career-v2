@@ -85,6 +85,10 @@ const softwareTesting = {
         {
             link: "https://www.youtube.com/playlist?list=PLL34mf651faM_nn8uKlnwbQPw5zSh_F84",
             text: "Software Testing Tutorial - Master Software Testing"
+        },
+        {
+            link: "https://www.youtube.com/watch?v=G4CeR6J1-4k&list=RDCMUCObs0kLIrDjX2LLSybqNaEA&index=4",
+            text: "Software Testing Full Course"
         }
     ]
 }
