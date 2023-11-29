@@ -6,6 +6,7 @@ import UserDesign from "./routes/careers/user-design";
 import Mobile from "./routes/careers/mobile";
 import SoftwareTesting from "./routes/careers/software-testing";
 import DevOps from "./routes/careers/devOps";
+import ProductManagement from "./routes/careers/product-management";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./css/index.scss";
 
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
    {
       path: "/career/development-operations",
       element: <DevOps />,
+   },
+   {
+      path: "/career/product-management",
+      element: <ProductManagement />,
    },
 ]);
 
