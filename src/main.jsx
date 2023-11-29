@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Home from "./routes/Home";
-import Frontend from "./routes/careers/Frontend";
-import UserDesign from "./routes/careers/UserDesign";
-import Mobile from "./routes/careers/Mobile";
+import Frontend from "./routes/careers/frontend";
+import UserDesign from "./routes/careers/user-design";
+import Mobile from "./routes/careers/mobile";
 import SoftwareTesting from "./routes/careers/software-testing";
 import DevOps from "./routes/careers/devOps";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
