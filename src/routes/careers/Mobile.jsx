@@ -12,7 +12,6 @@ function Mobile() {
          title="Mobile Development"
          heroImg="/assets/images/frontend-hero.jpg"
       >
-         {/***********  PARAGRAPHS  *********/}
          {mobile.notes.map((item, index) => (
             <p className="my-5 note" key={index}>
                {item}

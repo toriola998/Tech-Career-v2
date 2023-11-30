@@ -14,7 +14,6 @@ function UserDesign() {
          title="UI/UX design"
          heroImg="/assets/images/ui-ux.jpg"
       >
-         {/***********  PARAGRAPHS  *********/}
          {userDesign.notes.map((item, index) => (
             <p className="my-5 note" key={index}>
                {item}

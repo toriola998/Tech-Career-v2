@@ -16,7 +16,6 @@ function Frontend() {
          title="Frontend Development"
          heroImg="/assets/images/frontend-hero.jpg"
       >
-         {/***********  PARAGRAPHS  *********/}
          {frontend.notes.map((item, index) => (
             <p className="my-5 note" key={index}>
                {item}
@@ -38,7 +37,7 @@ function Frontend() {
          <div className="mt-8 ml-6">
             {frontend.technologies.map((item, index) => (
                <div key={index}>
-                  <p className="font-medium mb-2 ">{`${index + 1}. ${
+                  <p className="font-medium text-lg mb-2 ">{`${index + 1}. ${
                      item.title
                   }`}</p>
                   <p className="mb-8 note">{item.description}</p>
