@@ -9,6 +9,7 @@ import DevOps from "./routes/careers/devOps";
 import MachineLearning from "./routes/careers/machine-learning";
 import ProductManagement from "./routes/careers/product-management";
 import DatabaseAdministration from "./routes/careers/database-administration";
+import DataScience from "./routes/careers/data-science";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./css/index.scss";
 
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
    {
       path: "/career/database-administration",
       element: <DatabaseAdministration />,
+   },
+   {
+      path: "/career/data-science",
+      element: <DataScience />
    },
 ]);
 
