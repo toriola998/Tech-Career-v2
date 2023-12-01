@@ -52,11 +52,11 @@ const frontend = {
     bootcamp: [
         {
             link: "https://www.udemy.com/course/the-complete-web-development-bootcamp/",
-            text: "The Complete 2023 Web Development Bootcamp",
+            text: `The Complete ${new Date().getFullYear()} Web Development Bootcamp`,
          },
          {
             link: "https://www.udemy.com/course/100-days-of-code-web-development-bootcamp/",
-            text: "100 Days Of Code - Web Development Bootcamp [2023]",
+            text: `100 Days Of Code - Web Development Bootcamp [${new Date().getFullYear()}]`,
          },
          {
             link: "https://www.udemy.com/course/modern-html-css-from-the-beginning/",

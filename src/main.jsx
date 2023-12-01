@@ -13,6 +13,7 @@ import DataScience from "./routes/careers/data-science";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./css/index.scss";
 import CloudComputing from "./routes/careers/cloud-computing";
+import Backend from "./routes/careers/backend";
 
 const router = createBrowserRouter([
    {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
    {
       path: "/career/frontend-development",
       element: <Frontend />,
+   },
+   {
+      path: "/career/backend-development",
+      element: <Backend />,
    },
    {
       path: "/career/user-design",
