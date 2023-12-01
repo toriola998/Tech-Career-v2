@@ -12,6 +12,7 @@ import DatabaseAdministration from "./routes/careers/database-administration";
 import DataScience from "./routes/careers/data-science";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./css/index.scss";
+import CloudComputing from "./routes/careers/cloud-computing";
 
 const router = createBrowserRouter([
    {
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
    {
       path: "/career/data-science",
       element: <DataScience />
+   },
+   {
+      path: "/career/cloud-computing",
+      element: <CloudComputing />
    },
 ]);
 
