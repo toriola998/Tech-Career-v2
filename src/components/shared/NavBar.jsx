@@ -5,7 +5,7 @@ function NavBar() {
    const [showNav, setShowNav] = useState(false);
 
    return (
-      <nav className="border-b fixed top-0 right-0 left-0 bg-white py-4">
+      <nav className="border-b fixed top-0 right-0 z-50 left-0 bg-white py-4">
          <div className="flex justify-between px-4 max-w-[1200px] mx-auto">
             <Link to="/" className="text-2xl">
                TC
