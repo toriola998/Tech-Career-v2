@@ -27,9 +27,9 @@ function Articles() {
                      {item.note.slice(0, 150) + "..."}
                   </p>
 
-                  <div className="absolute bottom-4">
+                  <div className="absolute bottom-6">
                      <Link
-                        className="inline-flex text-white text-xs lg:text-[13px] bg-blue rounded-full px-4 py-2"
+                        className="blue-btn-link rounded-full px-4 py-2"
                         to={item.link}
                         target="_blank"
                      >

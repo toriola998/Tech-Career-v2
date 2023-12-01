@@ -27,7 +27,7 @@ function Careers() {
 
                   <div className="flex-center">
                      <Link
-                        className="mt-10 blue-btn-link hover:opacity-75"
+                        className="mt-10 blue-btn-link"
                         to={`/career/${item.link}`}
                      >
                         Learn more
