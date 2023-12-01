@@ -17,7 +17,7 @@ function NavBar() {
                }}
             >
                <img
-                  src="/assets/images/icons/menu.png"
+                  src="/assets/icons/menu.png"
                   alt=""
                   height="25"
                   width="25"
@@ -33,7 +33,7 @@ function NavBar() {
                   }}
                >
                   <img
-                     src="/assets/images/icons/close.png"
+                     src="/assets/icons/close.png"
                      alt=""
                      height="20"
                      width="20"

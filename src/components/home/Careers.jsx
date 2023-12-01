@@ -11,14 +11,14 @@ function Careers() {
             {careers.map((item, index) => (
                <div className="career py-8 px-4 md:w-[48.5%] lg:w-[45.8%]" key={index}>
                   <img
-                     src="@/assets/icon-mobile.png"
+                     src={ `public/assets/icons/career/${item.icon}`}
                      alt=""
                      role="presentation"
                      className="mx-auto block"
                      height="70"
                      width="70"
                   />
-                  <h3 className="font-medium my-4 text-center text-[1.4rem] lg:text-[2rem]">
+                  <h3 className="font-medium mt-8 mb-4 text-center text-[1.4rem] lg:text-[2rem]">
                      {item.title}
                   </h3>
                   <p className="text-[15px] lg:text-[1rem] text-center leading-[1.7] sm:px-5 md:px-0 xl:px-10">
@@ -28,7 +28,7 @@ function Careers() {
                   <div className="flex-center">
                      <Link
                         className="mt-10 blue-btn-link"
-                        to=""
+                        to={`/career/${item.link}`}
                      >
                         Learn more
                      </Link>
