@@ -13,7 +13,7 @@ function DataScience() {
    return (
       <CommonPageLayout
          title="Data Science"
-         heroImg="/assets/images/frontend-hero.jpg"
+         heroImg="/assets/images/career-covers/data-science.jpg"
       >
          {dataScience.notes.map((item, index) => (
             <p className="my-5 note" key={index}>

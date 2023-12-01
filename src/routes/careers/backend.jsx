@@ -12,7 +12,7 @@ function Backend() {
    return (
       <CommonPageLayout
          title="Backend Development"
-         heroImg="/assets/images/frontend-hero.jpg"
+         heroImg="/assets/images/career-covers/backend.jpg"
       >
          {backend.notes.map((item, index) => (
             <p className="my-5 note" key={index}>

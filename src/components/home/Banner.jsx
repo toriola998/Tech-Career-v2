@@ -12,7 +12,7 @@ function Banner() {
             <div className="flex justify-center items-center">
                <a
                   href="#careers"
-                  className="bg-blue text-white px-14 py-3 flex rounded text-sm"
+                  className="px-8 py-3 flex blue-btn-link"
                >
                   Get Started
                </a>

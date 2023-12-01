@@ -13,7 +13,7 @@ function CommonPageLayout({ children, title, heroImg }) {
                   src={heroImg}
                   alt=""
                   role="presentation"
-                  className="h-[200px] md:h-[250px] w-full object-cover my-10"
+                  className="h-[200px] md:h-[300px] w-full object-cover my-10"
                />
                {children}
             </div>

@@ -13,7 +13,7 @@ function CloudComputing() {
    return (
       <CommonPageLayout
          title="Cloud Computing"
-         heroImg="/assets/images/frontend-hero.jpg"
+         heroImg="/assets/images/career-covers/cloud.jpg"
       >
          {cloudComputing.notes.map((item, index) => (
             <p className="my-5 note" key={index}>

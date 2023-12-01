@@ -12,7 +12,7 @@ function UserDesign() {
    return (
       <CommonPageLayout
          title="UI/UX design"
-         heroImg="/assets/images/ui-ux.jpg"
+         heroImg="/assets/images/career-covers/user-design.jpg"
       >
          {userDesign.notes.map((item, index) => (
             <p className="my-5 note" key={index}>

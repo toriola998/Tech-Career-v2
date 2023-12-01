@@ -13,7 +13,7 @@ function DevOps() {
    return (
       <CommonPageLayout
          title="Development Operations (DevOps)"
-         heroImg="/assets/images/frontend-hero.jpg"
+         heroImg="/assets/images/career-covers/devOps.jpg"
       >
          {devOps.notes.map((item, index) => (
             <p className="my-5 note" key={index}>

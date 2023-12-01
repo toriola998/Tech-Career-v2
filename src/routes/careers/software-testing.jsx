@@ -13,7 +13,7 @@ function SoftwareTesting() {
    return (
       <CommonPageLayout
          title="Software Testing (Quality Assurance)"
-         heroImg="/assets/images/frontend-hero.jpg"
+         heroImg="/assets/images/career-covers/software-testing.jpeg"
       >
          {softwareTesting.notes.map((item, index) => (
             <p className="my-5 note" key={index}>

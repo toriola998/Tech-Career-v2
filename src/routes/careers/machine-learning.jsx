@@ -14,7 +14,7 @@ function MachineLearning() {
    return (
       <CommonPageLayout
          title="Machine Learning"
-         heroImg="/assets/images/frontend-hero.jpg"
+         heroImg="/assets/images/career-covers/machine-learning.jpg"
       >
          {machineLearning.notes.map((item, index) => (
             <p className="my-5 note" key={index}>
