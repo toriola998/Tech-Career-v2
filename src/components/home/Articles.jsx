@@ -3,7 +3,7 @@ import articles from "../../data/articles";
 
 function Articles() {
    return (
-      <section className="py-16 bg-gray-50 px-4">
+      <section id="articles" className="py-16 bg-gray-50 px-4 scroll-mt-10">
          <h2 className="text-2xl md:text-[2rem] font-medium text-center underline">
             Related articles
          </h2>

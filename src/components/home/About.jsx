@@ -5,7 +5,8 @@ function About() {
       <>
          {about.map((item, index) => (
             <section
-               className={`py-16 px-4 md:px-[15%] lg:px-4 flex flex-col gap-10 xl:gap-x-40 lg:flex-row container lg:justify-center items-center ${
+               id="about"
+               className={`scroll-mt-20 py-16 px-4 md:px-[15%] lg:px-4 flex flex-col gap-10 xl:gap-x-40 lg:flex-row container lg:justify-center items-center ${
                   index === 1 ? "lg:flex-row-reverse" : ""
                }`}
                key={index}

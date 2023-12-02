@@ -1,6 +1,6 @@
 function Banner() {
    return (
-      <header className="px-4 py-40">
+      <header className="px-4 py-48">
          <div className="sm:w-[85%] xl:w-[60%] mx-auto">
             <h1 className="text-dark-blue text-4xl md:text-[3.1rem] xl:text-[3.5rem] font-semibold text-center leading-[3rem] md:leading-[4rem]">
                Start your career in tech!
