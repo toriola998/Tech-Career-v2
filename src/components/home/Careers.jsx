@@ -14,7 +14,7 @@ function Careers() {
                   key={index}
                >
                   <img
-                     src={`public/assets/icons/career/${item.icon}`}
+                     src={`/assets/icons/career/${item.icon}`}
                      alt=""
                      role="presentation"
                      className="mx-auto block"
