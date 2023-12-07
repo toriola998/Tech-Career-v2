@@ -1,9 +1,11 @@
 import NavBar from "../shared/NavBar";
+import { ScrollRestoration } from "react-router-dom";
 
 function CommonPageLayout({ children, title, heroImg }) {
    return (
       <>
          <NavBar />
+         <ScrollRestoration/>
          <main>
             <div className="max-w-[700px] mx-auto my-32 px-4">
                <h1 className="text-dark font-semibold text-2xl md:text-3xl">
