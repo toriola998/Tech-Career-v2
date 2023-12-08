@@ -12,11 +12,11 @@
   }
 
 .header {
-  @apply flex items-center mt-[5rem] min-h-[80vh] bg-cover bg-no-repeat bg-[#0f3375];
+  @apply flex items-center mt-[5rem] min-h-[500px] lg:min-h-[600px] bg-cover bg-no-repeat bg-[#0f3375];
   background-image: url("/assets/images/hero-bg1.jpg");
 }
 
 .overlay {
     background: rgba(0, 0, 0, 0.3);
-    @apply right-0 top-0 z-10 w-full min-h-[80vh];
+    @apply right-0 top-0 z-10 w-full min-h-[500px] lg:min-h-[600px];
 }
