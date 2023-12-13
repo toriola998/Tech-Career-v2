@@ -6,7 +6,7 @@ function NavBar() {
 
    return (
       <nav className="border-b fixed top-0 right-0 z-50 left-0 bg-white py-6">
-         <div className="relative max-w-[1200px] mx-auto">
+         <div className="relative max-w-[1400px] mx-auto">
             <div className="flex justify-between px-4">
                <SiteLogo />
                <button
