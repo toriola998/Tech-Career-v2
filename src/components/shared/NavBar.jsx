@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import { useState } from "react";
+import SiteLogo from "./SiteLogo";
 
 function NavBar() {
    const [showNav, setShowNav] = useState(false);
@@ -8,15 +8,12 @@ function NavBar() {
       <nav className="border-b fixed top-0 right-0 z-50 left-0 bg-white py-6">
          <div className="relative max-w-[1200px] mx-auto">
             <div className="flex justify-between px-4">
-               <Link to="/" className="text-2xl">
-                  TC
-               </Link>
-
+               <SiteLogo />
                <button
                   onClick={() => {
                      setShowNav(!showNav);
                   }}
-                  className="lg:hidden"
+                  className="lg:hidden font-sans"
                >
                   <img
                      src="/assets/icons/menu.png"
